@@ -10,7 +10,7 @@ export default function App() {
         path="/about"
         element={
           <DetailPage
-            title="אודות"
+            title="ליידי סטייל"
             imageSeed="about-page"
             text="כאן אפשר לכתוב על המורה, הדרך שלה, הניסיון, סגנון ההוראה והאווירה בשיעורים."
           />
@@ -20,7 +20,7 @@ export default function App() {
         path="/private-lessons"
         element={
           <DetailPage
-            title="שיעורים פרטיים"
+            title="לימוד ריקוד לגברים"
             imageSeed="private-lessons"
             text="כאן אפשר לפרט למי מתאימים שיעורים פרטיים, איך זה עובד, משך שיעור, מחיר ויתרונות."
           />
@@ -32,7 +32,7 @@ export default function App() {
           <DetailPage
             title="שיעורים קבוצתיים"
             imageSeed="group-lessons"
-            text="כאן אפשר לפרט על קבוצות, רמות, שעות, סגנונות מוזיקליים ואיך מצטרפים."
+            text="כאן אפשר לפרט על לימוד ריקוד לזוגות, רמות, שעות, סגנונות מוזיקליים ואיך מצטרפים."
           />
         }
       />

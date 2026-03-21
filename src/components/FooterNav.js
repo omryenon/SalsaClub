@@ -2,9 +2,9 @@ import { NavLink } from 'react-router-dom';
 
 const navItems = [
   { to: '/', label: 'בית' },
-  { to: '/about', label: 'אודות' },
-  { to: '/group-lessons', label: 'קבוצות' },
-  { to: '/private-lessons', label: 'פרטי' },
+  { to: '/about', label: "ליידי סטייל" },
+  { to: '/group-lessons', label: 'לימוד ריקוד לזוגות' },
+  { to: '/private-lessons', label: 'לימוד ריקוד לגברים' },
   { to: '/contact', label: 'צור קשר' }
 ];
 
