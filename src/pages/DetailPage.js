@@ -14,11 +14,9 @@ export default function DetailPage({ title, text, imageSeed }) {
 
         <div className="detail-box">
           <h2>{title}</h2>
-          <p>{text}</p>
-          <p>
-            העמוד הזה קיים כדי שכל כפתור באמת יעביר לכתובת אחרת. אפשר להמשיך מכאן
-            לבנות תוכן מלא לכל עמוד בנפרד.
-          </p>
+          {text.map((line, index) => (
+            <div style={{fontSize: "25px"}} key={index}>{line}</div>
+          ))}
           <div className="detail-actions">
             <Link className="section-button" to="/">
               חזרה לעמוד הראשי
